@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eBay Thank You Card Sheet</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="sheet" aria-label="A4 sheet with six eBay thank-you cards">
+      <span class="trim trim--top-left" aria-hidden="true"></span>
+      <span class="trim trim--top-right" aria-hidden="true"></span>
+      <span class="trim trim--bottom-left" aria-hidden="true"></span>
+      <span class="trim trim--bottom-right" aria-hidden="true"></span>
+      <span class="trim-center trim-center--top" aria-hidden="true"></span>
+      <span class="trim-center trim-center--bottom" aria-hidden="true"></span>
+
+      <span class="cut-guide cut-guide--vertical" aria-hidden="true"></span>
+      <span class="cut-guide cut-guide--row-one" aria-hidden="true"></span>
+      <span class="cut-guide cut-guide--row-two" aria-hidden="true"></span>
+
+      <section class="card-grid" id="cardGrid" aria-label="Printable thank-you cards"></section>
+
+      <template id="cardTemplate">
+        <article class="card">
+          <img class="motif motif--asanoha" src="assets/motif_asanoha_corner.png" alt="" aria-hidden="true">
+          <img class="motif motif--plum" src="assets/motif_plum_branch.png" alt="" aria-hidden="true">
+          <img class="motif motif--seigaiha" src="assets/motif_seigaiha_corner.png" alt="" aria-hidden="true">
+          <img class="motif motif--seal" src="assets/motif_red_seal_kansha.png" alt="" aria-hidden="true">
+
+          <div class="card-content">
+            <h2 class="card-title"></h2>
+            <div class="card-message"></div>
+
+            <figure class="qr-block">
+              <a class="qr-link" target="_blank" rel="noopener">
+                <picture>
+                  <img class="qr-image" alt="QR code for eBay Purchase History">
+                </picture>
+              </a>
+              <figcaption class="qr-caption"></figcaption>
+            </figure>
+          </div>
+        </article>
+      </template>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
