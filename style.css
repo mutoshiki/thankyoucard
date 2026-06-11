@@ -104,31 +104,31 @@ body {
 }
 
 .motif--asanoha {
-  top: 4.4mm;
-  left: 4.7mm;
-  width: 18.5mm;
-  opacity: 0.36;
+  top: 2.6mm;
+  left: 2.9mm;
+  width: 22mm;
+  opacity: 0.68;
 }
 
 .motif--plum {
-  top: 3.8mm;
-  right: 4.6mm;
-  width: 15.2mm;
-  opacity: 0.58;
+  top: 2.2mm;
+  right: 2.7mm;
+  width: 17.2mm;
+  opacity: 0.92;
 }
 
 .motif--seigaiha {
-  left: 4.7mm;
-  bottom: 5.6mm;
-  width: 27mm;
-  opacity: 0.38;
+  left: 3.2mm;
+  bottom: 3.2mm;
+  width: 33mm;
+  opacity: 0.48;
 }
 
 .motif--seal {
-  right: 6mm;
-  bottom: 7.3mm;
+  right: 3.9mm;
+  bottom: 4.6mm;
   width: 8.8mm;
-  opacity: 0.92;
+  opacity: 0.98;
 }
 
 .card-content {
