@@ -15,6 +15,9 @@ const cardData = {
       "If there is any issue with your order, please contact me through eBay Messages.",
       "I will be happy to help."
     ],
+    [
+      "If you are looking for something specific, please feel free to contact me through eBay Messages."
+    ],
     ["Best regards,", "Toshiki"]
   ]
 };
